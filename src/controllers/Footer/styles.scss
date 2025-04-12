@@ -1,0 +1,23 @@
+$footer-border-color: gray;
+$footer-margin-bottom: 2px;
+$footer-padding: 10px;
+$footer-font-size: medium;
+$footer-font-weight: 700;
+$heart-color: red;
+$heart-font-size: 25px;
+
+.footer {
+  border: 1px solid $footer-border-color;
+  margin-bottom: $footer-margin-bottom;
+  padding: $footer-padding;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $footer-font-size;
+  font-weight: $footer-font-weight;
+}
+
+.footer__heart {
+  color: $heart-color;
+  font-size: $heart-font-size;
+}

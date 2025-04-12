@@ -1,0 +1,44 @@
+$border-color: #80808033;
+$card-transition: all 5s ease-in-out;
+$image-scale: 1.1;
+$image-width: 80%;
+$image-height: 80%;
+$meal-title-font-size: 12px;
+$meal-title-color: black;
+$meal-title-background: white;
+
+.product__card {
+  max-width: 300px;
+  border: 1px solid $border-color;
+  margin: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: $card-transition;
+
+  img {
+    width: $image-width;
+    height: $image-height;
+    overflow: hidden;
+
+    &:hover {
+      transform: scale($image-scale);
+    }
+  }
+}
+
+.card_addItem div {
+  margin: 3px 0;
+}
+
+.meal_title p {
+  text-align: center;
+  font-size: $meal-title-font-size;
+  padding: 0;
+  margin: 0;
+  color: $meal-title-color;
+  background: $meal-title-background;
+}

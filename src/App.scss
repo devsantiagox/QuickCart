@@ -1,0 +1,9 @@
+$app-height: 100vh;
+$app-overflow-x: hidden;
+
+.App {
+  height: $app-height;
+  display: flex;
+  flex-direction: column;
+  overflow-x: $app-overflow-x;
+}
